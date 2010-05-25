@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE LinearLayout [
+  <!ENTITY style.EditText.typeface 'monospace'>
+  ]>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	<TextView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/text_login_request"
+	  />
+	<EditText
+	  android:id="@+id/username"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:freezesText="true"
+	  android:hint="@string/hint_username"
+	  android:inputType="text"
+	  android:typeface="&style.EditText.typeface;"
+	  />
+	<EditText
+	  android:id="@+id/password"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:freezesText="true"
+	  android:hint="@string/hint_password"
+	  android:inputType="textPassword"
+	  android:typeface="&style.EditText.typeface;"
+	  android:password="true"
+	  />
+	<Button
+	  android:id="@+id/login_button"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="@string/text_login_button"
+	  android:typeface="&style.EditText.typeface;"
+	  />
+  </LinearLayout>
+</ScrollView>

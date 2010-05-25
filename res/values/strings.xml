@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">TwitterSimpleClient</string>
+  <string name="defaultvalue_interval">30</string>
+  <string name="dialog_negative">No</string>
+  <string name="dialog_positive">Yes</string>
+  <string name="dialog_title_destroy">Destroy?</string>
+  <string name="dialog_title_favorite">Favorite?</string>
+  <string name="hint_username">username</string>
+  <string name="hint_password">password</string>
+  <string name="menu_top">Page to top</string>
+  <string name="menu_prefs">Preferences</string>
+  <string name="text_login_button">Login</string>
+  <string name="text_login_request">Please login to Twitter.</string>
+  <string name="toast_destroy_ng">Destroy NG.</string>
+  <string name="toast_destroy_ok">Destroy OK.</string>
+  <string name="toast_favorite_ng">Favorite NG.</string>
+  <string name="toast_favorite_ok">Favorite OK.</string>
+  <string name="toast_get_ng">Get NG.</string>
+  <string name="toast_get_ok">Get OK.</string>
+  <string name="toast_login_ng">Login NG.</string>
+  <string name="toast_login_ok">Login OK.</string>
+  <string name="pref_category_general">General</string>
+  <string name="pref_title_interval">Update Interval</string>
+</resources>

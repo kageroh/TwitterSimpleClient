@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+	android:title="@string/pref_category_general">
+	<ListPreference
+	  android:key="interval"
+	  android:defaultValue="@string/defaultvalue_interval"
+	  android:title="@string/pref_title_interval"
+	  android:dialogTitle="@string/pref_title_interval"
+	  android:entries="@array/entries_interval"
+	  android:entryValues="@array/entryvalues_interval"
+	  />
+  </PreferenceCategory>
+</PreferenceScreen>

@@ -26,6 +26,7 @@ div.section {
   padding: .5em 0;
   border-bottom: 1px fuchsia solid;
   clear: both;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 p {

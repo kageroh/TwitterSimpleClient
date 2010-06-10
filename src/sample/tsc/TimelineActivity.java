@@ -48,15 +48,7 @@ public class TimelineActivity extends Activity {
 		wv = (WebView)findViewById(R.id.wv_timeline);
 		wv.addJavascriptInterface(new JsInterface(this), "android");
 		wv.getSettings().setJavaScriptEnabled(true);
-		wv.loadDataWithBaseURL(
-			"file:///android_asset/",
-			"<!DOCTYPE html>" +
-			"<meta charset='utf-8' />" +
-			"<link rel='stylesheet' href='timeline.css' />" +
-			"<script src='jquery-1.4.2.min.js'></script>" +
-			"<script src='timeline.js'></script>" +
-			"<div class='loader'><img src='loader.gif' /></div>",
-			"text/html", "utf-8", null);
+		wv.loadUrl("file:///android_asset/timeline.html");
 	}
 
 	@Override
